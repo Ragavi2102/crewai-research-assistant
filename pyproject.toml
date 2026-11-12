@@ -1,0 +1,9 @@
+[project]
+name = "crewai-research-assistant"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "crewai[google-genai]>=1.15.40",
+    "python-dotenv>=1.2.4",
+    "streamlit>=1.67.0",
+]
